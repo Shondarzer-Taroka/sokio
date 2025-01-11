@@ -1,7 +1,15 @@
+
+
 $primary-color: #3498db;
 $font-size-text: 94px;
 $color-text: white;
 $size: large;
+
+@import 'headerVariable';
+@import 'standard';
+@import 'header';
+
+
 
 
 body {
@@ -46,5 +54,17 @@ body {
 
     .amet {
         font-size: $font-size-text;
+    }
+}
+
+
+.hello-div ul {
+    list-style: none;
+
+}
+
+.hello-div ul {
+    li {
+        color: $color-text;
     }
 }

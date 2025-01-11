@@ -1,5 +1,3 @@
-
-
 $primary-color: #3498db;
 $font-size-text: 94px;
 $color-text: white;
@@ -8,6 +6,7 @@ $size: large;
 @import 'headerVariable';
 @import 'standard';
 @import 'header';
+@import 'glowing.scss';
 
 
 

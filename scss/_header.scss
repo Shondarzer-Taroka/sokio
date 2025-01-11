@@ -7,3 +7,12 @@
         background:$heading-bg-color;
     }
 }
+
+@mixin btn-details{
+ background-color: rgba(228, 232, 26, 0.583);
+ color: white;
+ border:  none;
+ outline: none;
+ padding: 12px 17px;
+ border-radius: 16px;
+}

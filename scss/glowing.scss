@@ -1,0 +1,12 @@
+
+.glowing{
+    p{
+        color: greenyellow;
+        font-size: smaller;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+
+    .btn-details{
+        @include btn-details
+    }
+}

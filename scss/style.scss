@@ -3,6 +3,7 @@ $font-size-text: 94px;
 $color-text: white;
 $size: large;
 
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: $primary-color;
@@ -24,5 +25,17 @@ body {
         outline: none;
         padding: 4px 8px;
         box-shadow: 0px 0px 2px rgba(172, 255, 47, 0.317);
+    }
+
+    .hello {
+        $color-text: blue;
+        color: $color-text;
+    }
+
+    .para2 {
+        $font-size-text: 26px;
+        color: $color-text;
+        font-size: $font-size-text;
+        font-weight: bold;
     }
 }

@@ -1,0 +1,28 @@
+$primary-color: #3498db;
+$font-size-text: 94px;
+$color-text: white;
+$size: large;
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: $primary-color;
+
+    h1 {
+        color: white;
+        text-align: center;
+    }
+
+    .nakik {
+        font-size: $font-size-text;
+        color: $color-text;
+    }
+
+    .button-#{$size} {
+        font-size: 2rem;
+        border: none;
+        border-radius: 12px;
+        outline: none;
+        padding: 4px 8px;
+        box-shadow: 0px 0px 2px rgba(172, 255, 47, 0.317);
+    }
+}

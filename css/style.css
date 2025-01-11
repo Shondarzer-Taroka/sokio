@@ -26,5 +26,11 @@ body .para2 {
   font-size: 26px;
   font-weight: bold;
 }
+body .lorem {
+  font-size: 45px;
+}
+body .amet {
+  font-size: 45px;
+}
 
 /*# sourceMappingURL=style.css.map */

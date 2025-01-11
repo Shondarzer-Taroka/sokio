@@ -38,4 +38,13 @@ body {
         font-size: $font-size-text;
         font-weight: bold;
     }
+
+    .lorem {
+        $font-size-text: 45px !global;
+        font-size: $font-size-text;
+    }
+
+    .amet {
+        font-size: $font-size-text;
+    }
 }

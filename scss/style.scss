@@ -8,6 +8,12 @@ $size: large;
 @import 'header';
 @import 'glowing.scss';
 
+@mixin border-item($color, $width) {
+    border: $width solid $color;
+}
+
+@import 'bordering';
+
 
 
 
